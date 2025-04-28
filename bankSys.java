@@ -41,9 +41,9 @@ class User {
 }
 
 public class bankSys {
-    private static final String url = "jdbc:mysql://127.0.0.1:3306/bankdb";
-    private static final String user = "root";
-    private static final String password = "Mysql@907!Md";
+    private static final String url = "url_connector";
+    private static final String user = "your_sql_username";
+    private static final String password = "your_sql_password";
     static {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
